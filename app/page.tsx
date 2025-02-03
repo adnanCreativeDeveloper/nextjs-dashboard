@@ -26,8 +26,8 @@ export default function Page() {
           </Link>
         </div>
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
-          {/* <Image width={1000} height={760} className='hidden md:block' src={'/hero-desktop.png'} alt="Acme Hero" />
-          <Image width={560} height={620} className='hidden md:hidden' src={'/hero-mobile.png'} alt="Acme Hero" /> */}
+          <Image width={1000} height={760} className='hidden md:block' src={'/hero-desktop.png'} alt="Acme Hero" />
+          <Image width={560} height={620} className='block md:hidden' src={'/hero-mobile.png'} alt="Acme Hero" />
         </div>
       </div>
     </main>
